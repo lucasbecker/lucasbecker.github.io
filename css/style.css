@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -9,63 +8,167 @@
 
 body{
     font-family: 'Archivo Black', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    background-color: whitesmoke;
 }
 
 header{
-    height: 90%;
-    width: 90%;   
-    background-color: black;
+
+    background-color: transparent;  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 6vw;
+    padding-right: 15vw;
+    /*MENU FIXO
+    width: 100%;
+    position: fixed;
+    z-index: 1;*/
+    
 }
 
-h1{
-    font-size: 18vw;
-    color: white;
-    word-wrap: wrap;
-    margin-top: -0.08em;
-    margin-left: -0.08em;
-    line-height: 0.8em;
+header nav ul{
+    position: relative;
 }
 
-h2{
-    font-size: 3.2vw;
-    color: white;
-    word-wrap: wrap;
-    line-height: 0.8em;
-    margin-left: -0.085em;
-    margin-top: 0.8em;
-    margin-bottom: 0.85em;
-}
-
-ul{
-    position: absolute;
-    bottom: 4.1%;
-}
 ul li{
     display: inline;
     list-style: none;
-    color: white;
-    font-size: 5.1vw;
-    margin-left: -0.05em;
-    line-height: 0.9em;
+    font-size: 1.5vw;
 }
 
 a{
     text-decoration: none;
-    color: white;
-}
-a:hover{
-    color: yellow;
+    color: black;
 }
 
-@media(max-width:765px){
-    h2{
-        font-size: 6vw;
-        margin-top: 4em;
-        margin-bottom: 9em;
+a:hover{
+    text-shadow: 2px 2px yellow;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url("../img/home-background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;*/
+    height: 94vh;
+}
+
+.home div{
+    height: auto;    
+    justify-content: center;
+    text-align: center;
+    padding: 3vw;
+    border: black solid;
+}
+
+.home div h1{
+    font-size: 6.3vw ;
+}
+
+.home div p{
+    font-size: 3.5vw;
+}
+
+.curriculo, .portfolio, .contato{
+    padding: 0 15vw 5vw 15vw;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.conteudo div{
+    width: 50%;
+    margin: 0 1vw;
+}
+
+h2{
+    font-size:2.5vw;
+    margin-bottom: 2vw;
+}
+h3{
+    margin-bottom: 1vw;
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    height: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    margin-top: 2vw;
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+@media (max-width: 560px){
+    .portfolio .grid{
+        grid-template-columns: 100%;
     }
+}
+
+
+.portfolio figure{
+    text-align: center;
+}
+
+.img-portfolio{
+    height: 20vw;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*.img-portfolio:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}*/
+
+.flip-card{
+    perspective: 200vw;
+    height: 20vw;
+}
+
+.card{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.flip-card:hover .card{
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    width: 100%;
+}
+
+.card-back{
+    height: 20vw;
+    width: 100%;
+    background-color: yellow;
+    transform: rotateY(180deg); 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-back a{
+    color: #090909;
 }
