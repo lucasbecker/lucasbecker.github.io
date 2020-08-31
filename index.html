@@ -6,109 +6,206 @@
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     
-    <title>Lucas Becker /// Desenvolvedor Web e Frontend</title>
+    <title>Lucas Becker / Desenvolvedor Web Freelance</title>
     <meta name="description" content="">
-    <meta name="keywords" content="Lucas Becker, Lucas Becker Felisberto, Desenvolvedor, Desenvolvedor Web, Desenvolvedor Frontend,  Desenvolvedor Backend, Freelance, Portfolio, Curriculo">
+    <meta name="keywords" content="Lucas Becker, Lucas Becker Felisberto, Desenvolvedor, Desenvolvedor Web, Desenvolvedor Frontend,  Desenvolvedor Backend, Freelance, Portfolio, Currículo, Trabalhos, Jobs, Freelas">
     <meta name="creator" content="Lucas Becker Felisberto">
    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#curriculo">Sobre</a></li>
-                <li> / </li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li> / </li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="home">
-            <div><h1>LUCAS /// BECKER</h1>
-        <p>Desenvolvedor Web // Freelancer</p></div>
-        </section>
-        <section class="curriculo">
-            <h2>Sobre</h2>
-            <div class="conteudo">
-                <div> 
-                    <p> Olá, mundo! Meu nome é Lucas Becker Felisberto, tenho 24 anos e sou bacharel em Tecnologias da Informação e Comunicação pela Universidade Federal de Santa Catarina. Atualmente atuo como desenvolvedor web freelancer, porém já atuei como editor de e-books, entregador, auxiliar administrativo e bartender. Para mais detalhes acesse o meu <a href="https://www.linkedin.com/in/lucasbeckerfelisberto/" target="_blank">Linkedin</a>.</p>
-                </div>
-                <div>
-                    <h3>Habilidades</h3>
-                    <p>Minhas linguagens nativas são o C, C++ e Java. Também sou fluente e tenho trabalhado com: HTML, CSS, JavaScript, PHP e MySQL. E estou começando os estudos com TypeScript, React, React Native e NodeJS.</p>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio" id="portfolio">
-            <h2>Portfólio</h2> 
-            <p>Além dos projetos abaixo, esse site também é desenvolvido por mim e está em constante evolução. Para mais projetos acesse o meu <a href="https://github.com/lucasbecker" target="_blank">GitHub</a>.</p>
-            
-            <div class="grid">
-              <div class="flip-card">
-                <div class="card">
-                  <figure class="card-front">
-                    <img class="img-portfolio" src="img/portfolio1.jpeg" alt="eCommerce">
-                  </figure>
-                  <div class="card-back">
-                    <h3>Grupo Ppassagero</h3>
-                    <p>Projeto desenvolvido com web design de 3V Motion Media, utilizando HTML, CSS, JavaScript e PHP.</p>
-                    <a href="#">Acesse</a>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="flip-card">
-                <div class="card">
-                  <figure class="card-front">
-                    <img class="img-portfolio" src="img/portfolio2.jpeg" alt="Mobile">
-                  </figure>
-                  <div class="card-back">
-                    <h3>Mobile</h3>
-                    <p>Descrição curta.</p>
-                    <a href="#">Leia Mais</a>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="flip-card">
-                <div class="card">
-                  <figure class="card-front">
-                    <img class="img-portfolio" src="img/portfolio3.png" alt="Web design">
-                  </figure>
-                  <div class="card-back">
-                    <h3>Web Design</h3>
-                    <p>Descrição curta.</p>
-                    <a href="#">Leia Mais</a>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="flip-card">
-                <div class="card">
-                  <figure class="card-front">
-                    <img class="img-portfolio" src="img/portfolio1.jpeg" alt="Projetos pessoais">
-                  </figure>
-                  <div class="card-back">
-                    <h3>Projetos Pessoais</h3>
-                    <p>Descrição curta.</p>
-                    <a href="#">Leia Mais</a>
-                  </div>
-                </div>
-              </div>
-        
-            </div>
-          </section>
-        <section class="contato"> 
-            <h2>Contatos</h2>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Lucas Becker</a>
+      </div>
 
-        </section>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"> <a href="#home" class="nav__link active">Inicio</a> </li>
+          <li class="nav__item"> <a href="#about" class="nav__link">Sobre</a> </li>
+          <li class="nav__item"> <a href="#skills" class="nav__link">Habilidades</a> </li>
+          <li class="nav__item"> <a href="#work" class="nav__link">Portfolio</a> </li>
+          <li class="nav__item"> <a href="#contact" class="nav__link">Contato</a> </li>
+        </ul>
+      </div>
 
-    </main>
-    <footer>
-        <p>2020 © Lucas Becker</p>
-    </footer>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="l-main">
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">
+          Hi, <br>
+          I'm <span class="home__title-color">Lucas Becker</span>,<br>
+          Web Developer and <br>
+          Freelance. 
+        </h1>
+        <a href="#contact" class="button">Contato</a>
+      </div>
+
+      <div class="home__social">
+        <a href="#" class="home__social-icon"> <i class="bx bxl-linkedin"></i> </a>
+        <a href="#" class="home__social-icon"> <i class="bx bxl-github"></i> </a>
+        <a href="#" class="home__social-icon"> <i class="bx bxl-codepen"></i> </a>
+      </div>
+
+      <div class="home__img">
+        <img src="./img/image.svg" alt="Retrato">
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <h2 class="section-title">Sobre</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="./img/image.svg" alt="Lucas Becker">
+        </div>
+
+        <div>
+          <h3 class="about__subtitle">I'm Lucas becker</h3>
+          <p class="about__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, cupiditate amet accusantium facere, soluta illo facilis aperiam officiis deserunt repellat ut cum ipsam vero illum nesciunt laborum, eos veniam asperiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam recusandae adipisci provident esse harum modi pariatur eaque rem commodi incidunt. Iste nesciunt in dolorem reiciendis ullam perferendis cum, sint facere!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Habilidades</h2>
+
+      <div class="skills__container bd-grid">
+        <div>
+          <h3 class="skills__subtitle">Frontend</h3>
+          <p class="skills__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus unde impedit consequuntur quidem dicta, commodi sapiente neque corrupti ab eaque, nostrum dolore eligendi sequi voluptatibus aut odit quae minima maiores.
+          </p>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-html5 skills__icon"></i>
+              <span class="skills__name">HTML5</span>
+            </div>
+            <div>
+              <span class="skills__percentage">95%</span>
+            </div>
+            <div class="skills__bar skills__html"></div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-css3 skills__icon"></i>
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div>
+              <span class="skills__percentage">75%</span>
+            </div>
+            <div class="skills__bar skills__css"></div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-javascript skills__icon"></i>
+              <span class="skills__name">JavaScript</span>
+            </div>
+            <div>
+              <span class="skills__percentage">85%</span>
+            </div>
+            <div class="skills__bar skills__js"></div>
+          </div>
+        </div>
+
+        <div class="skills__container">
+          <div>
+            <h3 class="skills__subtitle">Backend</h3>
+            <p class="skills__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus unde impedit consequuntur quidem dicta, commodi sapiente neque corrupti ab eaque, nostrum dolore eligendi sequi voluptatibus aut odit quae minima maiores.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+            </div>
+  
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+            </div>
+  
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JavaScript</span>
+              </div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <h2 class="section-title">Portfólio</h2>
+
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="./img/portfolio1.jpeg" alt="">
+        </div>
+        <div class="work__img">
+          <img src="./img/portfolio2.jpeg" alt="">
+        </div>
+        <div class="work__img">
+          <img src="./img/portfolio3.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contato</h2>
+
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+          <input type="text" name="name" id="name" placeholder="Nome" class="contact__input">
+          <input type="mail" name="email" id="email" placeholder="E-mail" class="contact__input">
+          <textarea name="message" id="message" rows="10" class="contact__input"></textarea>
+          <input type="button" value="Enviar" class="contact__button button">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__title">Lucas Becker</p>
+
+    <div class="footer__social">
+      <a href="#" class="footer__icon"> <i class="bx bxl-twitter"></i> </a>
+      <a href="#" class="footer__icon"> <i class="bx bxl-instagram"></i> </a>
+      <a href="#" class="footer__icon"> <i class="bx bx-mail-send"></i> </a>
+    </div>
+
+    <p>&#169; 2020 All rights reserved.</p>
+  </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
