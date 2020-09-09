@@ -42,7 +42,6 @@ main{
   bottom: 5%;
   left: 10%;
   
-  width: 100%;
   letter-spacing: .1em;  
 }
 
@@ -52,7 +51,6 @@ main{
   right: 10%;
   
   text-align: right;
-  width: 100%;
   letter-spacing: .1em;
 }
 
