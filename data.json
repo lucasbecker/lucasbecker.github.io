@@ -1,0 +1,115 @@
+{
+  "name":"Lucas Becker Felisberto",
+  "occupation":"Desenvolvedor",
+  "abstract":"Bacharel em tecnologias da informação e comunicação atualmente atuando como desenvolvedor web fullstack. Buscando novas oportunidades de emprego na área de desenvolvimento e programação para desenvolver habilidades, aprofundar conhecimentos e adquirir novos.",
+  "skills":[
+    "React",
+    "Node",
+    "JavaScript",
+    "HTML5",
+    "CSS3"
+  ],
+  "contacts":{
+    "email":"lucasbeckerfelisberto@gmail.com",
+    "linkedin":"https://www.linkedin.com/in/lucasbeckerfelisberto",
+    "github":"https://github.com/lucasbecker"
+  },
+  "professional-history":[
+    {
+      "occupation":"Desenvolvedor Web Fullstack",
+      "organization":"Freelancer",
+      "date":"2020-Atualmente",
+      "description":"Desenvolvendo aplicações web, de landing pages à sistemas de gestão."
+    },
+    {
+      "occupation":"Bartender",
+      "organization":"Augusto Meister Mixologista",
+      "date":"2018-2020",
+      "description":""
+    },
+    {
+      "occupation":"Entregador",
+      "organization":"Sabor de Alecrim",
+      "date":"2019-2020",
+      "description":""
+    },
+    {
+      "occupation":"Auxiliar Administrativo",
+      "organization":"Vidraçaria Beira Rio",
+      "date":"2013-2013",
+      "description":""
+    }
+  ],
+  "academic-history":[
+    {
+      "name":"Tecnologias da Informação e Comunicação",
+      "institution":"Universidade Federal de Santa Catarina",
+      "date":"2018-2020",
+      "description":"Curso de bacharelado concluído com média de 8.20, trabalho de conclusão de curso aprovado sem alterações e com nota máxima, certificados de desempenho acadêmico referentes aos semestres de 2019/1 e 2019/2."
+    }
+  ],
+  "courses":[
+    {
+      "name":"React Web Developer",
+      "institution":"Digital Innovation One",
+      "url":"https://certificates.digitalinnovation.one/37143C30"
+    },
+    {
+      "name":"Node Web Developer",
+      "institution":"Digital Innovation One",
+      "url":"https://certificates.digitalinnovation.one/65E2E45B"
+    },
+    {
+      "name":"JavaScript Game Developer",
+      "institution":"Digital Innovation One",
+      "url":"https://certificates.digitalinnovation.one/2F28B4FA"
+    },
+    {
+      "name":"HTML Web Developer",
+      "institution":"Digital Innovation One",
+      "url":"https://certificates.digitalinnovation.one/5F37DE4F"
+    },
+    {
+      "name":"Lógica de Programação",
+      "institution":"Softblue",
+      "url":"https://www.softblue.com.br/certificado/4079933305F6"
+    },
+    {
+      "name":"SQL Completo",
+      "institution":"Softblue",
+      "url":"https://www.softblue.com.br/certificado/4079926F191B"
+    },
+    {
+      "name":"Desenvolvimento Web com PHP e Banco de Dados MySQL",
+      "institution":"Udemy/Alfahelix",
+      "url":"https://www.udemy.com/certificate/UC-K0WTS27S/"
+    }
+  ],
+  "workshops":[
+    {
+      "name":"JS Expert Week",
+      "institution":"Erick Wendel",
+      "url":"https://github.com/lucasbecker/bandersnatch"
+    },
+    {
+      "name":"Next Level Week #03",
+      "institution":"Rocketseat",
+      "url":"https://github.com/lucasbecker/happy"
+    },
+    {
+      "name":"Imersão React",
+      "institution":"Alura",
+      "url":"https://github.com/lucasbecker/beckerflix"
+    },
+    {
+      "name":"Next Level Week #02",
+      "institution":"Rocketseat",
+      "url":"https://github.com/lucasbecker/proffy"
+    },
+    {
+      "name":"Next Level Week #01",
+      "institution":"Rocketseat",
+      "url":"https://github.com/lucasbecker/ecoleta"
+    }
+  ]
+}

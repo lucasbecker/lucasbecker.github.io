@@ -31,6 +31,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center; 
+  flex-direction: column;
 
   position: relative;
 
@@ -54,6 +55,16 @@ main{
   letter-spacing: .1em;
 }
 
+.nav{
+  width: 50%;
+  margin-bottom: 2.5%;
+  display: flex;
+  justify-content: space-around;
+
+  color: var(--gray-dark);
+  font-weight: 500;
+}
+
 .links{
   width: 50%;
   display: flex;
@@ -62,11 +73,12 @@ main{
   font-size: 2em;
 }
 
-.links a{
+a{
   text-decoration: none;
   color: var(--gray-dark);
+  transition: color .2s;
 }
 
-.links a:hover{
+a:hover{
   color: var(--yellow-dark);
 }
