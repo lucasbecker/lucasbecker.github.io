@@ -14,7 +14,7 @@
     "linkedin":"https://www.linkedin.com/in/lucasbeckerfelisberto",
     "github":"https://github.com/lucasbecker"
   },
-  "professional-history":[
+  "professionalHistory":[
     {
       "occupation":"Desenvolvedor Web Fullstack",
       "organization":"Freelancer",
@@ -40,7 +40,7 @@
       "description":""
     }
   ],
-  "academic-history":[
+  "academicHistory":[
     {
       "name":"Tecnologias da Informação e Comunicação",
       "institution":"Universidade Federal de Santa Catarina",

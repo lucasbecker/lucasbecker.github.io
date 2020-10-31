@@ -18,16 +18,22 @@ html{
 
 body{
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   background-color: var(--black);
   color: var(--gray-light);
+
+  overflow-x: hidden;
 }
 
 main{
-  height: 100%; 
+  
+}
+
+.home{
+  height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -35,12 +41,12 @@ main{
 
   position: relative;
 
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .name{
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
   left: 10%;
   
   letter-spacing: .1em;  
@@ -48,7 +54,7 @@ main{
 
 .description{
   position: absolute;
-  top: 5%;
+  top: 10%;
   right: 10%;
   
   text-align: right;
@@ -81,4 +87,202 @@ a{
 
 a:hover{
   color: var(--yellow-dark);
+}
+
+/* PAGE CURRICULUM */
+.curriculum{
+  padding: 5% 10%;
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.curriculum h1{
+  display: none;
+}
+.content{
+  flex: 1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.content a{
+  color: var(--gray-light);
+  transition: color .2s;
+}
+.content a:hover{
+  color: var(--yellow-dark);
+}
+.content h2, .content h3{
+  color: var(--gray-dark);
+}
+.content h3{
+  /*add espaçamento*/
+  margin-bottom: 10px;
+}
+.content h4{
+  /*add espaçamento*/
+}
+.content ul{
+  list-style: none;
+}
+
+.content .left{
+  width:  35%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding-right: 5%;
+}
+.content .left p{
+  margin-bottom: 25px;
+}
+.content .left .content-bottom:nth-child(2){
+  text-align: justify;
+}
+.content .left .content-bottom .skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+.content .left .content-bottom .skills .skill{
+  border: 1px solid var(--yellow-dark);
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.content .left .content-bottom .infos .contacts{
+  margin-bottom: 25px;
+}
+.content .left .content-bottom .infos .contacts a{
+  font-size: 2em;
+  margin-right: 5%;
+}
+
+.content .right{
+  width: 65%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding-left: 5%;
+  border-left: 2px solid var(--yellow-dark);
+}
+.content .right div{
+  width: 100%;
+}
+.content .right ul{
+  margin-bottom: 25px;
+}
+.content .right li{
+  margin-bottom: 5px;
+}
+.content .right .small{
+  font-size: 0.8em;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: justify;
+}
+
+.back{
+  padding-bottom: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.back a{
+  color: var(--yellow-dark);
+  transition: all .2s;
+
+  border: 1px solid var(--yellow-dark);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.back a:hover{
+  color: var(--gray-dark);
+  border-color: var(--gray-dark);
+
+}
+.download{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.download a{
+  color: var(--yellow-dark);
+  transition: all .2s;
+
+  border: 1px solid var(--yellow-dark);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.download a:hover{
+  color: var(--gray-dark);
+  border-color: var(--gray-dark);
+}
+ 
+/* PAGE PORTFOLIO*/
+.portfolio{
+  padding: 5% 10%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.portfolio h1{
+  display: none;
+}
+.portfolio .content{
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+.portfolio .content h2 {
+  margin-bottom: 5%;
+}
+
+/* MEDIA QUERY */
+@media all and (max-width: 650px){
+  .curriculum .content{
+    flex-direction: column;
+  }
+  .curriculum .content .left{
+    width: 100%;
+    padding-top: 5%;
+    
+    padding-right: 0;
+    
+  }
+  .curriculum .content .left .content-bottom .infos .contacts{
+    display: none;
+  }
+  .curriculum .content .right{
+
+    width: 100%;
+    
+    padding-left: 0;
+    border: none;
+  }
 }
