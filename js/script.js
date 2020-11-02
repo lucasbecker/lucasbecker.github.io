@@ -17,24 +17,24 @@ function home(){
         </p>
       </div>
       <div class="nav">
-        <a href="#curriculo" onclick="curriculum()">Currículo</a>
+        <a href="#curriculo" accesskey="c" title="Currículo" onclick="curriculum()">Currículo</a>
         |
-        <a href="#portfolio" onclick="portfolio()">Portfólio</a>
+        <a href="#portfolio" accesskey="p" title="Portfólio" onclick="portfolio()">Portfólio</a>
       </div>
       <div class="links">
-        <a href="https://www.linkedin.com/in/lucasbeckerfelisberto" target="_blank">
+        <a href="https://www.linkedin.com/in/lucasbeckerfelisberto" accesskey="l" title="Linkedin" target="_blank">
           <i class='bx bxl-linkedin'></i>
         </a>
-        <a href="https://github.com/lucasbecker" target="_blank">
+        <a href="https://github.com/lucasbecker" accesskey="g" title="GitHub" target="_blank">
           <i class='bx bxl-github' ></i>
         </a>
-        <a href="https://codepen.io/lucasbecker" target="_blank">
+        <a href="https://codepen.io/lucasbecker" accesskey="o" title="CodePen" target="_blank">
           <i class='bx bxl-codepen' ></i>
         </a>
-        <a href="https://twitter.com/lucasbckr" target="_blank">
+        <a href="https://twitter.com/lucasbckr" accesskey="t" title="Twitter" target="_blank">
           <i class='bx bxl-twitter' ></i>
         </a>
-        <a href="https://www.instagram.com/lucas.bckr" target="_blank">
+        <a href="https://www.instagram.com/lucas.bckr" accesskey="i" title="Instagram" target="_blank">
           <i class='bx bxl-instagram' ></i>
         </a>
       </div>
@@ -104,7 +104,7 @@ function curriculum(){
       containerMain.innerHTML = `
         <div class="curriculum">
           <div class="back">
-            <a href="#" onclick="home()"> <i class='bx bx-arrow-back'></i> Voltar</a>
+            <a href="#" onclick="home()" accesskey="v" title="Voltar"> <i class='bx bx-arrow-back'></i> Voltar</a>
           </div>
           <h1>Currículo</h1>
           <div class="content">
@@ -167,7 +167,7 @@ function curriculum(){
                 </ul>
               </div>
               <div class="download">
-                <a href="./assets/curriculo.pdf" download>Download <i class='bx bxs-download' ></i></a>
+                <a href="./assets/curriculo.pdf" accesskey="d" title="Download" download>Download <i class='bx bxs-download' ></i></a>
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@ function portfolio(){
   containerMain.innerHTML = `
         <div class="portfolio">
           <div class="back">
-            <a href="#" onclick="home()"> <i class='bx bx-arrow-back'></i> Voltar</a>
+            <a href="#" onclick="home()" accesskey="v" title="Voltar"> <i class='bx bx-arrow-back'></i> Voltar</a>
           </div>
           <h1>Portfólio</h1>
           <div class="content">

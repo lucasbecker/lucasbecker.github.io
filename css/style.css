@@ -176,7 +176,7 @@ a:hover{
   align-items: flex-start;
 
   padding-left: 5%;
-  border-left: 2px solid var(--yellow-dark);
+  border-left: 1px solid var(--yellow-dark);
 }
 .content .right div{
   width: 100%;

@@ -1,7 +1,7 @@
 {
   "name":"Lucas Becker Felisberto",
   "occupation":"Desenvolvedor",
-  "abstract":"Bacharel em tecnologias da informação e comunicação atualmente atuando como desenvolvedor web fullstack. Buscando novas oportunidades de emprego na área de desenvolvimento e programação para desenvolver habilidades, aprofundar conhecimentos e adquirir novos.",
+  "abstract":"Bacharel em Tecnologias da Informação e Comunicação atuando como desenvolvedor web fullstack. Buscando novas oportunidades de emprego na área de desenvolvimento e programação para desenvolver habilidades, aprofundar conhecimentos e adquirir novos.",
   "skills":[
     "React",
     "Node",
@@ -83,6 +83,11 @@
       "name":"Desenvolvimento Web com PHP e Banco de Dados MySQL",
       "institution":"Udemy/Alfahelix",
       "url":"https://www.udemy.com/certificate/UC-K0WTS27S/"
+    },
+    {
+      "name":"Web Design: Construa Sites com PHP, HTML, CSS e JavaScript",
+      "institution":"Udemy/Alfahelix",
+      "url":"https://www.udemy.com/certificate/UC-NL2GPNTG/"
     }
   ],
   "workshops":[
