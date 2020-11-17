@@ -1,10 +1,11 @@
 {
   "name":"Lucas Becker Felisberto",
   "occupation":"Desenvolvedor",
-  "abstract":"Bacharel em Tecnologias da Informação e Comunicação atuando como desenvolvedor web fullstack. Buscando novas oportunidades de emprego na área de desenvolvimento e programação para desenvolver habilidades, aprofundar conhecimentos e adquirir novos.",
+  "abstract":"Bacharel em Tecnologias da Informação e Comunicação atuando como desenvolvedor web full stack. Buscando novas oportunidades de emprego na área de desenvolvimento e programação para desenvolver habilidades, aprofundar conhecimentos e adquirir novos.",
   "skills":[
     "React",
     "Node",
+    "TypeScript",
     "JavaScript",
     "HTML5",
     "CSS3"
@@ -16,7 +17,7 @@
   },
   "professionalHistory":[
     {
-      "occupation":"Desenvolvedor Web Fullstack",
+      "occupation":"Desenvolvedor Web Full Stack",
       "organization":"Freelancer",
       "date":"2020-Atualmente",
       "description":"Desenvolvendo aplicações web, de landing pages à sistemas de gestão."

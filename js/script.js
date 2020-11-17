@@ -1,8 +1,6 @@
 const containerMain = document.querySelector('main');
-
-var url      = window.location.href;     // Retorna a url completa
-var anchorId = url.split("#")[url.split("#").length -1];
-
+let url      = window.location.href;
+let anchorId = url.split("#")[url.split("#").length -1];
 
 function home(){
   containerMain.innerHTML = `
@@ -12,7 +10,7 @@ function home(){
       </div>
       <div class="description">
         <p>
-          Desenvolvedor Web Fullstack<br>
+          Desenvolvedor Web Full Stack<br>
           Freelancer
         </p>
       </div>
@@ -41,7 +39,6 @@ function home(){
     </div>
   `;
 }
-
 function curriculum(){
   
   fetch(`assets/data.json`)
@@ -193,6 +190,7 @@ function portfolio(){
         </div>
       `;
 }
+
 switch(anchorId){
   case 'curriculo':
     curriculum();
