@@ -3,12 +3,15 @@
   "occupation":"Desenvolvedor",
   "abstract":"Bacharel em Tecnologias da Informação e Comunicação atuando como desenvolvedor web full stack. Buscando novas oportunidades de emprego na área de desenvolvimento e programação para desenvolver habilidades, aprofundar conhecimentos e adquirir novos.",
   "skills":[
-    "React",
-    "Node",
     "TypeScript",
+    "React",
+    "React Native",
+    "Node",
     "JavaScript",
-    "HTML5",
-    "CSS3"
+    "PHP",
+    "MySQL",
+    "HTML",
+    "CSS"
   ],
   "contacts":{
     "email":"lucasbeckerfelisberto@gmail.com",

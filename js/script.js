@@ -104,7 +104,7 @@ function curriculum(){
                 </div>
 
                 <div class="infos">
-                  <h3>HABILIDADES</h3>
+                  <h3>PRINCIPAIS HABILIDADES</h3>
                   <div class="skills">
                     ${skills}
                   </div>
@@ -437,23 +437,38 @@ Mensagem: ${form.message.value}`)
     body: JSON.stringify(data),
   }).then(response => response.ok? success(): error())
 
-
-
-
   })
 
 }
 
-switch(anchorId){
-  case 'curriculo':
-    curriculum();
-    break;
-  case 'portfolio':
-    portfolio();
-    break;
-  case 'contatos':
-    contacts();
-    break;
-  default:
-    home();
+window.onload = function() { 
+  switch(window.location.hash){
+    case '#curriculo':
+      curriculum();
+      break;
+    case '#portfolio':
+      portfolio();
+      break;
+    case '#contatos':
+      contacts();
+      break;
+    default:
+      home();
+  }
+}
+
+window.onhashchange = function() { 
+  switch(window.location.hash){
+    case '#curriculo':
+      curriculum();
+      break;
+    case '#portfolio':
+      portfolio();
+      break;
+    case '#contatos':
+      contacts();
+      break;
+    default:
+      home();
+  }
 }
