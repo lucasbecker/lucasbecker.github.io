@@ -1,17 +1,19 @@
 {
   "name":"Lucas Becker Felisberto",
   "occupation":"Desenvolvedor",
-  "abstract":"Bacharel em Tecnologias da Informação e Comunicação atuando como desenvolvedor web full stack. Buscando novas oportunidades de emprego na área de desenvolvimento e programação para desenvolver habilidades, aprofundar conhecimentos e adquirir novos.",
+  "abstract":"Bacharel em Tecnologias da Informação e Comunicação atuando como desenvolvedor web front-end.<br><br>Sempre aberto a conversas e novas oportunidades na área de desenvolvimento web e/ou front-end para desenvolver habilidades, aprofundar conhecimentos e adquirir novos.",
   "skills":[
-    "TypeScript",
-    "React",
-    "React Native",
-    "Node",
+    "HTML",
+    "CSS",
     "JavaScript",
     "PHP",
-    "MySQL",
-    "HTML",
-    "CSS"
+    "MySQL"
+  ],
+  "studying": [
+    "React",
+    "Next.js",
+    "Node.js",
+    "TypeScript"
   ],
   "contacts":{
     "email":"lucasbeckerfelisberto@gmail.com",
@@ -19,6 +21,12 @@
     "github":"https://github.com/lucasbecker"
   },
   "professionalHistory":[
+    {
+      "occupation":"Desenvolvedor Web Front-end",
+      "organization":"Drift Web",
+      "date":"2021-Atualmente",
+      "description":"Desenvolvendo e melhorando aplicações web de alto desempenho, de landing pages à e-commerces."
+    },
     {
       "occupation":"Desenvolvedor Web Full Stack",
       "organization":"Freelancer",
@@ -96,7 +104,32 @@
   ],
   "workshops":[
     {
-      "name":"JS Expert Week",
+      "name":"Next Level Week #04 - Trilha React",
+      "institution":"Rocketseat",
+      "url":"https://github.com/lucasbecker/moveit"
+    },
+    {
+      "name":"MaratonaDiscover #01",
+      "institution":"Rocketseat",
+      "url":"https://github.com/lucasbecker/dev-finances"
+    },
+    {
+      "name":"Front-Week #01",
+      "institution":"Násser Yousef",
+      "url":"https://github.com/lucasbecker/spider"
+    },
+    {
+      "name":"JS Expert Week #02",
+      "institution":"Erick Wendel",
+      "url":"https://github.com/lucasbecker/mooz"
+    },
+    {
+      "name":"Imersão React #02",
+      "institution":"Alura",
+      "url":"https://github.com/lucasbecker/hype-quiz"
+    },
+    {
+      "name":"JS Expert Week #01",
       "institution":"Erick Wendel",
       "url":"https://github.com/lucasbecker/bandersnatch"
     },
@@ -106,7 +139,7 @@
       "url":"https://github.com/lucasbecker/happy"
     },
     {
-      "name":"Imersão React",
+      "name":"Imersão React #01",
       "institution":"Alura",
       "url":"https://github.com/lucasbecker/beckerflix"
     },

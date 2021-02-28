@@ -141,10 +141,10 @@ a{
 .content a:hover{
   color: var(--yellow-dark);
 }
-.content h2, .content h3{
+.content h2, .content h3, .content h4{
   color: var(--gray-dark);
 }
-.content h3{
+.content h3, .content h4{
   /*add espaçamento*/
   margin-bottom: 10px;
 }
