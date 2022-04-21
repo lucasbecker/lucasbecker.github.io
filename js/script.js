@@ -50,12 +50,13 @@ function curriculum(){
       }
 
       for(let work of data.professionalHistory){
+        const workTechnologies = work.technologies.join(", ");
         works += `
           <li>
             <h4>${work.occupation}</h4>
             <p>${work.organization} (${work.date})</p>
             <p class="small">${work.description}</p>
-            <p class="small">Tecnologias utilizadas: ${work.technologies.join(', ')}</p>
+            <p class="small">Tecnologias utilizadas: ${workTechnologies}</p>
           </li>
         `;
       }
