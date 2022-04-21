@@ -2,18 +2,24 @@
   "name":"Lucas Becker Felisberto",
   "occupation":"Desenvolvedor",
   "abstract":"Bacharel em Tecnologias da Informação e Comunicação atuando como desenvolvedor web front-end.<br><br>Sempre aberto para conversas e novas oportunidades na área de desenvolvimento web e/ou front-end para desenvolver habilidades, aprofundar conhecimentos e adquirir novos.",
-  "skills":[
-    "HTML",
-    "CSS",
-    "JavaScript",
+  "workWith":[
+    "TypeScript",
+    "Vue",
+    "Vuetify",
     "PHP",
+    "Laravel",
     "MySQL"
   ],
-  "studying": [
+  "skills":[
+    "JavaScript",
     "React",
-    "Next.js",
-    "Node.js",
-    "TypeScript"
+    "Next",
+    "Node",
+    "HTML",
+    "CSS",
+    "MongoDB",
+    "Wordpress",
+    "Material UI"
   ],
   "contacts":{
     "email":"lucasbeckerfelisberto@gmail.com",
@@ -22,34 +28,43 @@
   },
   "professionalHistory":[
     {
-      "occupation":"Desenvolvedor Web Front-end",
-      "organization":"Drift Web",
+      "occupation":"Desenvolvedor Web Front-end/Pleno",
+      "organization":"Innova Connect",
       "date":"2021-Atualmente",
-      "description":"Desenvolvendo e melhorando aplicações web de alto desempenho, de landing pages à e-commerces."
+      "description":"Desenvolvendo e melhorando aplicação financeira web de alto desempenho.",
+      "technologies":[
+        "TypeScript",
+        "Vue",
+        "Vuetify",
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Docker"
+      ]
     },
     {
       "occupation":"Desenvolvedor Web Full Stack",
       "organization":"Freelancer",
       "date":"2020-Atualmente",
-      "description":"Desenvolvendo aplicações web, de landing pages à sistemas de gestão."
+      "description":"Desenvolvendo aplicações web, de landing pages à sistemas de pequeno porte.",
+      "technologies":[
+        "Um pouco de tudo",
+        "O que for preciso",
+      ]
     },
     {
-      "occupation":"Bartender",
-      "organization":"Augusto Meister Mixologista",
-      "date":"2018-2020",
-      "description":""
-    },
-    {
-      "occupation":"Entregador",
-      "organization":"Sabor de Alecrim",
-      "date":"2019-2020",
-      "description":""
-    },
-    {
-      "occupation":"Auxiliar Administrativo",
-      "organization":"Vidraçaria Beira Rio",
-      "date":"2013-2013",
-      "description":""
+      "occupation":"Desenvolvedor Web Front-end/Tech Lead",
+      "organization":"Drift Web",
+      "date":"2021-2021",
+      "description":"Desenvolvendo e melhorando aplicações web, de landing pages à e-commerces."
+      "technologies":[
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Wordpress",
+        "Woocommerce",
+        "MySQL"
+      ]
     }
   ],
   "academicHistory":[
