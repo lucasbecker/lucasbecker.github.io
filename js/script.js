@@ -34,19 +34,19 @@ function curriculum(){
     })
     .then( data => {
 
+      let workWith = ``;
       let skills = ``;
-      let studying = ``;
       let works = ``;
       let academics = ``;
       let courses = ``;
       let workshops = ``;
 
-      for(let skill of data.skills){
-        skills += `<span class="skill">${skill}</span>`
+      for(let tech of data.workWith){
+        workWith += `<span class="skill">${tech}</span>`
       }
 
-      for(let study of data.studying){
-        studying += `<span class="skill">${study}</span>`
+      for(let skill of data.skills){
+        skills += `<span class="skill">${skill}</span>`
       }
 
       for(let work of data.professionalHistory){
@@ -55,6 +55,7 @@ function curriculum(){
             <h4>${work.occupation}</h4>
             <p>${work.organization} (${work.date})</p>
             <p class="small">${work.description}</p>
+            <p class="small">Tecnologias utilizadas: ${work.technologies.join(', ')}</p>
           </li>
         `;
       }
@@ -111,12 +112,12 @@ function curriculum(){
                 <div class="infos">
                   <h3>PRINCIPAIS HABILIDADES</h3>
                   <div class="skills">
-                    ${skills}
+                    ${workWith}
                   </div>
 
-                  <h4>ESTUDANDO</h4>
+                  <h4>OUTRAS HABILIDADES</h4>
                   <div class="skills">
-                    ${studying}
+                    ${skills}
                   </div>
                 </div>
 
