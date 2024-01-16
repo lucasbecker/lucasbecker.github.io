@@ -1,3 +1,3 @@
 # lucasbecker.github.io
  
-Projeto portfólio e currículo online. 
+WORK IN PROGRESS
