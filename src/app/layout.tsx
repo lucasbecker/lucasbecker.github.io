@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 
 import './globals.css'
+import { ThemeProvider } from '@/components/theme-provider'
+import { ThemeModeToggle } from '@/components/theme-mode-toggle'
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,8 +12,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'LCS BCKR FLSBRT | Resume',
-  description: 'Full Stack Software Engineer',
+  title: 'LCS BCKR FLSBRT | Full Stack Software Engineer',
+  description: 'Resume',
 }
 
 export default function RootLayout({
@@ -19,7 +21,11 @@ export default function RootLayout({
 }: PropsWithChildren) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ThemeProvider attribute="class" defaultTheme="system">
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
