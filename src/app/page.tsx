@@ -24,7 +24,7 @@ const ICON: Record<string, ReactNode> = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-6 p-6 relative">
+    <main className="flex min-h-dvh flex-col items-center gap-6 p-6 relative">
       <div className="flex items-center w-full justify-end print:hidden">
         <ThemeModeToggle />
       </div>
@@ -90,7 +90,7 @@ export default function Home() {
         <h2 className="text-lg font-semibold">Education</h2>
 
         {RESUME_DATA.education.map((eduction, index) => (
-          <Card key={index} className="border-0 mt-3 w-full">
+          <Card key={index} className="border-0 mt-3 w-full shadow-none">
             <CardHeader className="p-0">
               <div className="flex items-center justify-between gap-x-2 text-base">
                 <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
