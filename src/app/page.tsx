@@ -104,14 +104,23 @@ export default function Home() {
                   </span>
                 </div>
 
-                <h4 className="text-sm font-light text-muted-foreground">
-                  {work.company}
-                </h4>
+                <h4 className="text-sm font-light">{work.company}</h4>
               </div>
 
-              <p className="text-xs font-light text-muted-foreground text-justify">
+              <p className="text-xs text-muted-foreground text-justify">
                 {work.description}
               </p>
+
+              <div className="flex gap-x-2 gap-y-1 flex-wrap">
+                {work.skills.map((skill, index) => (
+                  <span
+                    key={index}
+                    className="text-xs font-light text-muted-foreground"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </CardHeader>
           </Card>
         ))}

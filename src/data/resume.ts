@@ -39,6 +39,7 @@ export const RESUME_DATA = {
       role: "Frontend Software Engineer",
       description:
         "Development of a browser extension that integrates a virtual assistant based on artificial intelligence.",
+      skills: ["TypeScript", "React", "Git/GitHub"],
       date: "2023 - Now",
       badge: "Remote",
     },
@@ -47,6 +48,17 @@ export const RESUME_DATA = {
       role: "Mid-Level Developer",
       description:
         "Development and maintenance of web systems, from financial systems to sales portals for medium and large companies.",
+      skills: [
+        "TypeScript",
+        "JavaScript",
+        "React",
+        "Vue",
+        "Nest",
+        "Node",
+        "PostgreSQL",
+        "Git/GitHub",
+        "Docker",
+      ],
       date: "2021 - Now",
       badge: "Hybrid",
     },
@@ -55,6 +67,7 @@ export const RESUME_DATA = {
       role: "Frontend Web Developer",
       description:
         "Development and maintenance of high-performance web applications, from landing pages to e-commerce sites.",
+      skills: ["JavaScript", "HTML", "CSS/LESS", "PHP", "WordPress", "MySQL"],
       date: "2021 - 2021",
     },
     {
@@ -62,6 +75,7 @@ export const RESUME_DATA = {
       role: "Full Stack Web Developer",
       description:
         "Development of web applications from landing pages to management systems with a focus on SEO, usability and best practices.",
+      skills: ["JavaScript", "HTML", "CSS", "PHP", "MySQL"],
       date: "2020 - 2021",
     },
   ],
