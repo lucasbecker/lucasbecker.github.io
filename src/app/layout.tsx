@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LCS BCKR FLSBRT | Full Stack Software Engineer",
+  title: "LCS BCKR FLSBRT | Full Stack Software Developer",
   description: "Resume",
 };
 
