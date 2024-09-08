@@ -35,15 +35,6 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Happy Loop",
-      role: "Frontend Software Engineer",
-      description:
-        "Development of a browser extension that integrates a virtual assistant based on artificial intelligence.",
-      skills: ["TypeScript", "React", "Git/GitHub"],
-      date: "2023 - Now",
-      badge: "Remote",
-    },
-    {
       company: "Innova Connect Sistemas",
       role: "Mid-Level Developer",
       description:
@@ -61,6 +52,15 @@ export const RESUME_DATA = {
       ],
       date: "2021 - Now",
       badge: "Hybrid",
+    },
+    {
+      company: "Happy Loop",
+      role: "Frontend Software Engineer",
+      description:
+        "Development of a browser extension that integrates a virtual assistant based on artificial intelligence.",
+      skills: ["TypeScript", "React", "Git/GitHub"],
+      date: "2023 - 2024",
+      badge: "Remote",
     },
     {
       company: "Drift Web",
